@@ -60,6 +60,8 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     implementation(libs.androidx.recyclerview)
+    implementation(libs.androidx.work)
+
 
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.firestore)
