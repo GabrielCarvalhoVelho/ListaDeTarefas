@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Título da tarefa -->
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Título da Tarefa"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Descrição da tarefa -->
+    <TextView
+        android:id="@+id/txtDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descrição da Tarefa"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Botões de ação -->
+
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar"
+            android:contentDescription="Botão para editar a tarefa" />
+
+        <Button
+            android:id="@+id/btnExcluir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Excluir"
+            android:layout_marginStart="8dp"
+            android:contentDescription="Botão para excluir a tarefa" />
+
+        <Button
+            android:id="@+id/btnCompletar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✔ Completar"
+            android:layout_marginStart="8dp"
+            android:contentDescription="Botão para marcar a tarefa como completa" />
+
+</LinearLayout>

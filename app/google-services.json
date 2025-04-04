@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "810418721456",
+    "project_id": "lista-de-tarefas-d63b3",
+    "storage_bucket": "lista-de-tarefas-d63b3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810418721456:android:05abb223346f8b62c4e175",
+        "android_client_info": {
+          "package_name": "com.example.listadetarefas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810418721456-6e5ckknhu5qqfmsot1hkr6g4haoadmal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.listadetarefas",
+            "certificate_hash": "bef1b4de852e30b75c1097f2c396592d012693e5"
+          }
+        },
+        {
+          "client_id": "810418721456-7kp65aal8oq1mn58vid0qonjf7e935gh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwqCfpFFBm4b7KjYPQof1gJ4hW04ENar8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810418721456-7kp65aal8oq1mn58vid0qonjf7e935gh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
